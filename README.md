@@ -24,9 +24,14 @@ $$P_i = \frac{S_i^-}{S_i^+ + S_i^-}$$
 
 ## **2. Description**
  ### **TOPSIS is a tool used to make smart decisions when there is no clear winner. Imagine you are buying a phone: one is cheap but has a bad camera, while another has a great camera but is too expensive. TOPSIS takes all these confusing trade-offs and uses math to rank the phones, finding the one that offers the best overall balance.**
+
+ 
 ## **3. Input / Output**
 
 
 ## **4. Local host link**
 
+
+
 ## **5. Screenshot of the Interface**
+<img width="711" height="787" alt="image" src="https://github.com/user-attachments/assets/c1f6ecc6-9628-460a-bbac-b543cbc20a59" />
