@@ -3,20 +3,20 @@
 
 ## **1. Methodology**
 
-###*Step1*
+## *Step1*
 * Normalization of the given decision table*
 $$r_{ij} = \frac{x_{ij}}{\sqrt{\sum_{i=1}^{m} x_{ij}^2}}$$
 
-###*Step2*
+## *Step2*
 * Weighted Normalized Decision Matrix- After normalizing we multiply the decision by there given weight corresponding to each column *
 $$v_{ij} = w_j \times r_{ij}$$
 
-###*Step3*
+## *Step3*
 * Find the Ideal best and worst and then the Euclidean Distance from Ideal Best and Ideal Worst for each row*
 $$S_i^+ = \sqrt{\sum (v_{ij} - V_j^+)^2}$$
 $$S_i^- = \sqrt{\sum (v_{ij} - V_j^-)^2}$$
 
-###*Step4*
+## *Step4*
 *Find the performance value and rank them in descending order!*
 $$P_i = \frac{S_i^-}{S_i^+ + S_i^-}$$
 
