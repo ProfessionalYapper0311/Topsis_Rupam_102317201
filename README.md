@@ -1,4 +1,4 @@
-# **Title: Topsis for MCMD Problems**
+<img width="766" height="530" alt="image" src="https://github.com/user-attachments/assets/2d8d781c-1dc5-4b9a-8e5a-a230213f5807" /># **Title: Topsis for MCMD Problems**
 
 
 
@@ -30,8 +30,9 @@ $$P_i = \frac{S_i^-}{S_i^+ + S_i^-}$$
 
 
 ## **4. Local host link**
-
+#### *Link:- http://127.0.0.1:5000*
+<img width="566" height="330" alt="image" src="https://github.com/user-attachments/assets/2344e5f7-a346-4229-82a4-05f24a869bd5" />
 
 
 ## **5. Screenshot of the Interface**
-<img width="711" height="787" alt="image" src="https://github.com/user-attachments/assets/c1f6ecc6-9628-460a-bbac-b543cbc20a59" />
+<img width="511" height="587" alt="image" src="https://github.com/user-attachments/assets/c1f6ecc6-9628-460a-bbac-b543cbc20a59" />
