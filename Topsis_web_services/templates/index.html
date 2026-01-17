@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Topsis Web Service</title>
+    <style>
+        body { font-family: sans-serif; display: flex; justify-content: center; padding-top: 50px; }
+        form { border: 1px solid #ccc; padding: 20px; border-radius: 5px; width: 300px; }
+        label { display: block; margin-top: 10px; }
+        input[type="text"], input[type="email"], input[type="file"] { width: 100%; padding: 5px; margin-top: 5px; }
+        button { margin-top: 20px; width: 100%; padding: 10px; background-color: orange; color: white; border: none; cursor: pointer; }
+        button:hover { background-color: darkorange; }
+        .error { color: red; font-size: 0.9em; margin-top: 10px; }
+        .success { color: green; font-size: 0.9em; margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <form action="/" method="post" enctype="multipart/form-data">
+        <h2>Topsis Web Service</h2>
+        
+        <label>File Name (CSV)</label>
+        <input type="file" name="inputFile" required>
+
+        <label>Weights (comma separated)</label>
+        <input type="text" name="weights" placeholder="1,1,1,1" required>
+
+        <label>Impacts (+ or - separated by comma)</label>
+        <input type="text" name="impacts" placeholder="+,+,-,+" required>
+
+        <label>Email Id</label>
+        <input type="email" name="email" placeholder="example@gmail.com" required>
+
+        <button type="submit">Submit</button>
+
+        {% if message %}
+            <p class="{{ status }}">{{ message }}</p>
+        {% endif %}
+    </form>
+</body>
+</html>
