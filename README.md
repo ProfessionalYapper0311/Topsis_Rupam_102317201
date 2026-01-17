@@ -1,4 +1,4 @@
-<img width="766" height="530" alt="image" src="https://github.com/user-attachments/assets/2d8d781c-1dc5-4b9a-8e5a-a230213f5807" /># **Title: Topsis for MCMD Problems**
+# **Title: Topsis for MCMD Problems**
 
 
 
@@ -27,6 +27,11 @@ $$P_i = \frac{S_i^-}{S_i^+ + S_i^-}$$
 
  
 ## **3. Input / Output**
+#### *Input*
+<img width="453" height="237" alt="image" src="https://github.com/user-attachments/assets/391d8882-b3f4-441e-9f53-8810a0b7fc97" />
+
+#### *Output*
+<img width="536" height="200" alt="image" src="https://github.com/user-attachments/assets/de8fde99-adfd-4ac9-9c3f-cc28f0d20999" />
 
 
 ## **4. Local host link**
